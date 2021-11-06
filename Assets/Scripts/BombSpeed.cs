@@ -39,7 +39,6 @@ public class BombSpeed : MonoBehaviour{
 		}
 
 		if (distanceToPlayer < 4f) {
-			Debug.Log("Player is kill");
 			myPlayer.Kill();
 		}
 
